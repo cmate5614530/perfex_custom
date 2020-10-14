@@ -1,0 +1,117 @@
+/* vehicle detail sub header */
+.vehicle-detail-subtitle{
+    font-size: large;
+    margin-top: 10px;
+    margin-right:20px;
+}
+
+.vehicle-detail-explanation{
+    font-size: medium;
+    color:gray;
+    margin-top:5px;
+    margin-bottom:5px;
+
+}
+/* table  */
+.table-header{
+    background-color:#48a0d6;
+}
+.table-header th {
+    color:white!important;
+}
+
+/* switch */
+.btn-toggle{
+    border:1px solid gray;
+    border-radius:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+
+}
+/* language select  */
+.lang-select label.btn-default.active{background-color:#007ba7;color:#FFF}
+.lang-select label.btn-default{width:90%;border:1px solid #efefef;margin:1px; box-shadow:3px 5px 5px 0 #ccc;}
+.lang-select label .bizcontent{width:100%;}
+.lang-select .btn-group{width:90%}
+.lang-select .items{
+    padding-left:3px; padding-right:3px;
+}
+.lang-select .btn span.glyphicon{
+    opacity: 0;
+}
+.lang-select .btn.active span.glyphicon {
+    opacity: 1;
+}
+
+/* select 2 z-index */
+.select2-container{
+    z-index:100000;
+}
+.select2 {
+    width: 400px!important;
+    max-width: 90%;
+}
+
+.select2-selection__choice
+{
+    padding: 10px;
+    font-size: 14px;
+    background: #2270ac!important;
+    color: white;
+}
+
+/* map */
+.map {
+    width:90%; 
+    height:350px;
+}
+
+@media only screen and (max-width: 600px) {
+    .map {
+      height:200px;
+    }
+}
+
+/* switch category */
+.hidden {
+    display:none;
+}
+/* ------------------------ */
+/* map related  css */
+/* ------------------------ */
+/* CSS for the Delete Button. */
+.deleteOverlayButton {
+    background: #dee0df;
+    color: #000;
+    /* font-family: 'Helvetica', 'Arial', sans-serif; */
+    font-size: 11.4px;
+    font-weight: bold;
+    text-align: center;
+    width: 14px;
+    height: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 0px -1px rgba(0, 0, 0, .3);
+    position: absolute;
+    padding: 4px 14px 16px 6px;
+    margin-top: 7px;
+    margin-left: 8px;
+    border: 1px solid #999;
+    cursor: pointer;
+  }
+  
+  .deleteOverlayButton:hover {
+    background: #eee;
+  }
+
+  .map_table_action {
+      vertical-align: middle!important;
+      width:50px;
+  }
+
+  .table_action_button {
+      font-size: medium;
+  }
+
+  .all_width{
+      width:100%;
+  }

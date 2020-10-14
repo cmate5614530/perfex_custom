@@ -1,0 +1,32 @@
+
+  .signature-pad--body{
+    border-radius: 4px;
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: 1px solid #c0cbda;
+  }
+  span.fontz9{
+    font-size: 9px;
+  }
+  .mtop15{
+    margin-top: 15px;
+  }
+  .ul_style{
+    min-width: 500px;
+    min-height: 190px;
+  }
+  .apr_div{
+    text-align: center; 
+    font-size: 15px;
+  }
+  .img_style{
+    width: 150px; 
+    height: 80px;
+  }
+  .ip_style{
+    width:1px; 
+    height:1px; 
+    border:0px;
+  }

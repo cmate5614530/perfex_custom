@@ -1,0 +1,248 @@
+.m-bot-0{
+	margin-bottom: 0px;
+}
+
+img.images_w_table {
+    width: 116px;
+    height: 73px;
+}
+img.image-w-h {
+    width: 116px;
+    height: 73px;
+}
+
+.dropzone, .dropzone * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.dropzone-previews {
+    box-sizing: border-box;
+}
+
+#images_old_preview {
+    box-sizing: border-box;
+}
+
+/*.dz-image-preview {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    display: block;
+    z-index: 10;
+}*/
+.dz-details {
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    font-size: 13px;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 2em 1em;
+    text-align: center;
+    color: rgba(0,0,0,.9);
+    line-height: 150%;
+}
+
+.dz-progress {
+    opacity: 1;
+    z-index: 1000;
+    pointer-events: none;
+    position: absolute;
+    height: 16px;
+    left: 50%;
+    top: 50%;
+    margin-top: -8px;
+    width: 80px;
+    margin-left: -40px;
+    background: rgba(255,255,255,.9);
+    -webkit-transform: scale(1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dz-upload {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    transition: width .3s ease-in-out;
+}
+
+.dz-error-message {
+    pointer-events: none;
+    z-index: 1000;
+    position: absolute;
+    display: block;
+    display: none;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -ms-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+    border-radius: 8px;
+    font-size: 13px;
+    top: 130px;
+    left: -10px;
+    width: 140px;
+    background: #be2626;
+    background: linear-gradient(to bottom,#be2626,#a92222);
+    padding: .5em 1.2em;
+    color: #fff;
+}
+
+.dz-success-mark {
+    position: absolute;
+    display: none;
+    top: 30px;
+    width: 54px;
+    height: 58px;
+    left: 50%;
+    margin-left: -27px;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 500;
+    margin-top: -27px;
+}
+
+.dz-error-mark {
+    position: absolute;
+    display: none;
+    top: 30px;
+    width: 54px;
+    height: 58px;
+    left: 50%;
+    margin-left: -27px;
+    pointer-events: none;
+    opacity: 0;
+    margin-top: -27px;
+    z-index: 500;
+}
+
+.dz-remove {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    border: none;
+}
+
+.dz-preview {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    margin: 0.5em;
+    vertical-align: top;
+    min-height: 100px;
+}
+
+img.image-w-h {
+    width: 120px;
+    height: 120px;
+}
+
+.remove_file {
+    position: absolute;
+    top: -12px;
+    right: -10px;
+    border: 1px solid red;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+img.images_w_table {
+    width: 116px;
+    height: 73px;
+}
+
+/*approval setting*/
+.new_vendor_requests_button{
+    display: contents;
+    line-height: 84px;
+    white-space: nowrap;
+}
+
+.approval_model{
+    width: 1000px;
+}
+
+.setting-handsome-table{
+    width: 70%;
+}
+
+.h4-color{
+    color: #d8341b;
+}
+
+.hr-color{
+    margin-top: 10px;
+    border-bottom: 0.5px solid;
+     color: #d8341b;
+}
+
+.label-tab1{
+        border: 1px solid #84C529 !important;
+        color: #84C529 !important;
+    }
+.label-tab2{
+   border: 1px solid #28B8DA !important;
+    color: #28B8DA !important;
+}
+.label-tab3{
+   border: 1px solid #da2828 !important;
+    color: #da2828 !important;
+}
+
+ .signature-pad--body{
+    border-radius: 4px;
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: 1px solid #c0cbda;
+  }
+
+.status-approve-1{
+    color:#28B8DA ;
+    border:1px solid #28B8DA; 
+}
+.status-approve-2{
+    color:#84C529 ;
+    border:1px solid #84C529; 
+}
+.status-approve-3{
+    color:#fb3b3b ;
+    border:1px solid #fb3b3b; 
+}
+.status-approve-4{
+    color:#fb3b3b ;
+    border:1px solid #fb3b3b; 
+}
+
+.status-pur-order-1{
+    color:#757575 ;
+    border:1px solid #757575; 
+}
+.status-pur-order-2{
+    color:#28B8DA ;
+    border:1px solid #28B8DA;  
+}
+.status-pur-order-3{
+    color:#84C529 ;
+    border:1px solid #84C529; 
+}
+.status-pur-order-4{
+    color:#fb3b3b ;
+    border:1px solid #fb3b3b; 
+}

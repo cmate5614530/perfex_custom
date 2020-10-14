@@ -1,0 +1,113 @@
+  .modal1 {
+    z-index: none !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+  }
+  .ht_clone_top th {
+    color: white;
+    background-color: #00bcd4;
+    font-weight: 500;
+  }
+  .ht_master tr:nth-of-type(even) > td {
+    background-color: #03a9f43d;
+  }
+  .handsontable thead th.ht__highlight{
+    color: white;
+    background-color: #03a9f49e;
+    font-weight: 500;
+  }
+
+  .row-margin-bottom{
+    margin-bottom: 4px;
+  }
+  .button-margin-r-b{
+      margin-right: 7px;
+      margin-bottom: 4px;
+  }
+  .ht-dialog-width{
+    width: 80%
+  }
+  .skucode-tooltip{
+    font-size: 1.25rem;
+    color: #676a80;
+  }
+
+  .img-cursor-pointer{
+    cursor: pointer;
+  }
+
+  .panel-padding{
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+ .table-margintop{
+    margin-top: 0px;
+  }
+
+  .td-width{
+    width: 30%;
+  }
+
+  .h3-card-block-margin{
+    margin-top: 13px !important;
+    }
+  .h3-span-font-size{
+    font-size: 14px;
+  }
+
+  .p-span-font-size{
+    font-size: 14px;
+  }
+  .p-card-block-font-size{
+    font-size: 16px;
+  }
+
+  
+.bg-c-blue {
+    background: linear-gradient(45deg,#fe5824,#eea890);
+    margin:0px 32px;
+}
+
+.card1 {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+span.glyphicon.glyphicon-chevron-left, span.glyphicon.glyphicon-chevron-right {
+    font-size: 13px;
+}
+
+img.images_w {
+    width: 100%;
+    height: 100%;
+}

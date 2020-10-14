@@ -1,0 +1,17 @@
+.withd_1k{
+  width: 1000px;
+}
+.bot_div{
+  display: contents;
+  line-height: 84px;
+  white-space: nowrap;
+}
+.i_tooltip{
+  font-size: 1.25rem; 
+  color: #676a80;
+}
+.btn_apr{
+	display: contents;
+	line-height: 84px;
+	white-space: nowrap;
+}

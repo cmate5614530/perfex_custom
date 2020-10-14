@@ -1,0 +1,40 @@
+
+  .signature-pad--body{
+    border-radius: 4px;
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: 1px solid #c0cbda;
+  }
+  .p_style{
+   margin-top: 15px; color: #d81b60;
+  }
+  .hr_style{
+    margin-top: 5px; 
+    border: 0.5px solid; 
+    color: #d81b60
+  }
+  span.fontz9{
+    font-size: 9px;
+  }
+  .martop0{
+    margin-top: 0px; 
+  }
+  .apr_div{
+    text-align: center; 
+    font-size: 15px;
+  }
+  .img_style{
+    width: 150px; 
+    height: 80px;
+  }
+  .ul_style{
+    min-width: 500px;
+    min-height: 190px;
+  }
+  .ip_style{
+    width:1px; 
+    height:1px; 
+    border:0px;
+  }
